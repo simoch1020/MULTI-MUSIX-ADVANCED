@@ -287,7 +287,7 @@ function resumePlayback() {
 
 
 module.exports = {
-  name: 'play',
+  name: 'p',
   description: 'Play music from YouTube',
   execute: async (message, args) => {
     const voiceChannel = message.member.voice.channel;
