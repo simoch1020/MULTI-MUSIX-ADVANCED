@@ -28,6 +28,7 @@ const path = require('path');
 const { Player } = require('discord-player');
 const express = require('express');
 require('dotenv').config();
+const stream = ytdl('https://www.youtube.com/watch?v=yourvideoid', { quality: 'highestaudio' });
 const ytdl = require('ytdl-core');
 const { DisTube } = require('distube');
 
